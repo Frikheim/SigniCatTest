@@ -49,7 +49,7 @@ public class RegistrationFragment extends Fragment {
                 if (!(userName.equals("")) && !(userPin.equals(""))) {
                     SharedPreferences.Editor editor = sharedPreferences.edit();
                     editor.putString(getString(R.string.user_key),userName);
-                    editor.putInt(getString(R.string.pin_key),Integer.valueOf(userPin));
+                    editor.putString(getString(R.string.pin_key),userPin);
                     editor.apply();
                     Toast.makeText(getContext(), R.string.registration_success, Toast.LENGTH_SHORT).show();
                     NavHostFragment.findNavController(RegistrationFragment.this)

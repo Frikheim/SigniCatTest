@@ -17,6 +17,7 @@
     <string name="user_missing">Please add username</string>
     <string name="both_missing">Please add username and pin</string>
     <string name="registration_success">User registration successful</string>
+    <string name="delete_success">User deletion successful</string>
 
     <string name="preferences">SigniCatPreferences</string>
     <string name="user_key">SigniCatUser</string>
