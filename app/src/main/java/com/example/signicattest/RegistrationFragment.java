@@ -22,6 +22,7 @@ public class RegistrationFragment extends Fragment {
     SharedPreferences sharedPreferences;
     EditText user;
     EditText pin;
+
     @Override
     public View onCreateView(
             LayoutInflater inflater, ViewGroup container,

@@ -8,7 +8,6 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.signicattest.RegistrationFragment"
-        android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
 
         <action
@@ -18,7 +17,6 @@
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.signicattest.LoginFragment"
-        android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
         <action
@@ -28,7 +26,6 @@
     <fragment
         android:id="@+id/ThirdFragment"
         android:name="com.example.signicattest.UserFragment"
-        android:label="@string/third_fragment_label"
         tools:layout="@layout/fragment_third">
 
     </fragment>
